@@ -27,7 +27,9 @@ export const Loginmodule = () => {
         <div className={styles.contain}>
             <div className={styles.container}>
                 <div className={styles.card}>
-                    <h2>Login</h2>
+                    <a><img className={styles.logo} src="./images/coet2.png" alt="logo"/></a>
+                    {/* <h2>Login</h2> */}
+                    <hr/>
                     <Stack direction="column" spacing={2}>
                     <TextField className={styles.textfield} id="outlined-basic" label="Username" variant="outlined" />
                     <FormControl sx={{ m: 2, width: '65.5vh' }} variant="outlined">
@@ -54,13 +56,13 @@ export const Loginmodule = () => {
                     <a href="/signup"><button className={styles.signbutton}>SIGN UP</button></a>
                     <Link to='/password' className={styles.forgot}>Forgot Password?</Link> 
                     <br/>
-                    <br/>
+                    {/* <br/> */}
                     </Stack>
                     </Stack>
                 </div>
                 <div className={styles.text}>
-                    <p>Bachelor of <br/>Engineering <br/>Technology - </p>
-                    <p className={styles.green}>Computer<br/>Engineering <br/>Technology</p>
+                    {/* <p>Bachelor of <br/>Engineering <br/>Technology - </p>
+                    <p className={styles.green}>Computer<br/>Engineering <br/>Technology</p> */}
                 </div>
             </div>
         </div>    

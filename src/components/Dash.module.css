@@ -8,19 +8,26 @@ html{
     align-items: center;
     gap: 30px;
     margin: 50px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    /* white-space: normal; */
+
 }
 
 .card {
     display: block;
     background-color: rgb(255, 255, 255);
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 5px;
+    margin-top: 4%;
+    box-shadow: 10px 10px;
+    border: 1px solid;
 }
 
-img.card {
-    height: 150px;
-    /* width: 150px; */
+img.img {
+    height: 250px;
     object-fit: contain;
+    border: 1px solid;
 }
 
 h3.info {

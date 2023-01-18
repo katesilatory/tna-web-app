@@ -17,15 +17,11 @@ export const Dashmodule = () => {
     return (
         <div className={styles.container}>
             <div className={styles.card}>
-                <img src="./images/logo.png" alt="logo" className={styles.card}/>
+                <img src="./images/logo.png" alt="logo" className={styles.img}/>
                 <h3 className={styles.info} >Date / Time</h3>
             </div>
             <div className={styles.card}>
-                <img src="./images/logo.png" alt="logo" className={styles.card}/>
-                <h3 className={styles.info} >Date / Time</h3>
-            </div>
-            <div className={styles.card}>
-                <img src="./images/logo.png" alt="logo" className={styles.card}/>
+                <img src="./images/logo.png" alt="logo" className={styles.img}/>
                 <h3 className={styles.info} >Date / Time</h3>
             </div>
         </div>

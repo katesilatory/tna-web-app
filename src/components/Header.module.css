@@ -5,6 +5,7 @@
     align-items: center;
     background-color: #2BD598;
     height: 3px;
+    border: 1px solid;
 }
 
 .primary {

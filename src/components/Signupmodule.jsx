@@ -54,7 +54,7 @@ export const Signupmodule = () => {
                     label="Password"/>
                 </FormControl>
                 <Stack direction="column" spacing={2}>
-                <a href="/"><button className={styles.create}>Create Account</button></a>
+                <a href="/"><button className={styles.register}>Register</button></a>
                 <a href="/"><button className={styles.cancel}>Cancel</button></a>
                 <br/>
                 <br/>
