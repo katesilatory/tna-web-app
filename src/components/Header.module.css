@@ -1,11 +1,11 @@
 .container {
     display: flex;
-    padding: 30px;
+    padding-right: 30px;
     justify-content: space-between;
     align-items: center;
     background-color: #2BD598;
-    height: 3px;
-    border: 1px solid;
+    height: 50px;
+    /* border: 1px solid; */
 }
 
 .primary {
